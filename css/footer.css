@@ -1,0 +1,96 @@
+/* Don + RS $*/
+#footer_OG
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* Survol sur don */
+#img_don
+{
+    height: 100px; 
+    width: 100px; 
+    background: url("../img/don.png") no-repeat;
+}
+
+/* Survol sur les icones réseaux sociaux */
+.icon_rs
+{
+    margin-right: 30px;
+    height: 36px;
+    width: 36px;
+}
+
+#facebookz
+{
+    background: url("../img/ico_RS/ico_facebook.png") no-repeat;
+    background-size: 16px 30px;
+}
+
+#facebookz:hover
+{
+    background: url("../img/ico_RS/facebook_orange.png") no-repeat;
+    background-size: 16px 30px;
+}
+
+#twitterz
+{
+    background: url("../img/ico_RS/ico_twitter.png") no-repeat;
+    background-size: 34px 30px;
+}
+
+#twitterz:hover
+{
+    background: url("../img/ico_RS/twitter_orange.png") no-repeat;
+    background-size: 34px 30px;
+}
+
+#youtubez
+{
+    background: url("../img/ico_RS/ico_youtube.png") no-repeat;
+    background-size: 36px 30px;
+}
+
+#youtubez:hover
+{
+    background: url("../img/ico_RS/youtube_orange.png") no-repeat;
+    background-size: 36px 30px;
+}
+
+#instagramz
+{
+    background: url("../img/ico_RS/ico_instagram.png") no-repeat;
+    background-size: 30px 30px;
+}
+
+#instagramz:hover
+{
+    background: url("../img/ico_RS/instragram_orange.png") no-repeat;
+    background-size: 30px 30px;
+}
+
+#twitchz
+{
+    background: url("../img/ico_RS/ico_twitch.png") no-repeat;
+    background-size: 27px 30px;
+}
+
+#twitchz:hover
+{
+    background: url("../img/ico_RS/twitch_orange.png") no-repeat;
+    background-size: 27px 30px;
+}
+
+#discordz
+{
+
+    background: url("../img/ico_RS/ico_discord.png") no-repeat;
+    background-size: 34px 30px;
+}
+
+#discordz:hover {
+    background: url("../img/ico_RS/discord_orange.png") no-repeat;
+    background-size: 34px 30px;
+}

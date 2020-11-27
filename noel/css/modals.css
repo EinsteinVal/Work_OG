@@ -1,0 +1,16 @@
+.colors-bg-modals {
+    text-decoration-color: none;
+    background-color: #D84320;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .w3-black, .w3-hover-black:hover {
+    color: #ffffff!important;
+    font-weight: bold;
+    background-color: #D84320!important;
+}

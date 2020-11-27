@@ -1,0 +1,97 @@
+/* Logo de OneGeek (au centre) */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#logo_OG {
+    width: 250px;
+}
+
+#teeshirt_CS {
+    margin-right: 150px;
+    width: 100px;
+    transform: rotate(-45deg)
+}
+
+#cadeaux_CS {
+    margin-left: 150px;
+    width: 90px;
+    transform: rotate(45deg)
+}
+/* Bouton Paypayl */
+.bouton_pp {
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#D84320;
+	font:bold 13px Arial;
+    color:#fff;
+    font-weight: bold;
+}
+
+/* Compteur (au centre) */
+canvas {
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Les 2 coins en haut et à droite, en bas et à gauche */
+#corner_TR
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+#corner_BL
+{
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+#img_don:hover
+{
+    background: url("../img/don_orange.png") no-repeat;
+}
+
+/* Responsives */
+/*@media screen and (max-width: 1024px) {
+   #bloc 
+   {
+        margin-top: 50%;
+   }
+
+   canvas
+   {
+        margin-top: 150px;
+   }
+
+   #footer_OG
+   {
+        bottom: 300px;
+   }
+}*/
+
+@media (max-width:767px)
+{
+     #bloc 
+   {
+        margin-top: 50%;
+   }
+
+   canvas
+   {
+        margin-top: 150px;
+   }
+
+   #footer_OG
+   {
+        bottom: 300px;
+   }
+}
